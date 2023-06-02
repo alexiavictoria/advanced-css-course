@@ -55,12 +55,14 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .headingPrimary {
     color: white;
     text-transform: uppercase;
     backface-visibility: hidden;
+    margin: 0 0 60px 0;
 }
 
 .headingPrimaryMain {
@@ -125,4 +127,30 @@ body {
         opacity: 1;
         transform: translate(0);
     }
+}
+
+.button:link,
+.button:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all 0.2s;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+
+.button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 10px rgba(0,0,0,.2);
+}
+
+.headerButton {
+    background-color: white;
+    columns: #777;
+
 }
