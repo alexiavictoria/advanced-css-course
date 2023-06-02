@@ -85,7 +85,9 @@ body {
 
     animation: moveInRight 1s ease-out;
 
-    /* animation-name: moveInRight;
+    /* 
+    This is the long form for the shorthand above.
+    animation-name: moveInRight;
     animation-duration: 1s;
     animation-timing-function: ease-out; */
 
